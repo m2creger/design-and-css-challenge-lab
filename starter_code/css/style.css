@@ -11,6 +11,7 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -18,6 +19,7 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
+
 .clearfix:after {
      content: ".";
      display: block;
@@ -30,11 +32,12 @@ Developer @GA in NYC
 .clear {
   clear: both;
 }
-
+*/
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
+
 
 .alignleft {
   float: left;
@@ -46,10 +49,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+
+    text-align: center;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     height: 500px;
 }
 
 
@@ -71,13 +76,125 @@ header {
 }
 
 footer {
-
+  background-color: #606161;
+  height: 150px;
+  color: #f9e42e;
+  font-size: 9px;
+  font-weight: 800;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.companyLogo {
+  font-family: 'Open Sans';
+  font-size: 36px;
+  font-weight: 900;
+  float: left;
+  left: 40px;
+  margin: 15px;
+}
+.companyLogoBottom {
+  font-family: 'Open Sans';
+  font-size: 36px;
+  font-weight: 900;
+}
+.companyPhrase {
+  font-size: 24px;
+  font-family: 'Open Sans';
+  font-color: white;
+  top: 40%;
+  padding: 75px;
+}
+.introButton {
+  color: #606161;
+  background-color: #f9e42e;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  margin: 5px;
+}
+.topSector {
+  background-image: url("../images/header_bg.jpg");
+  background-color: #cccccc;
+  height: 300px;
+  color: white;
+}
+.middleSector {
+  height: 300px;
+}
+.middleHeadline {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+.middleHeadlineText {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 400;
+  clear: both;
 
+}
+ul {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  padding: 20px;
+  margin: 5px;
+}
+img {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
+.bottomSector {
+  background-color: #f9e42e;
+  height: 50px;
+  margin: auto;
+  padding: 5px;
+}
+.customerReview {
+  font-family: 'Open sans'
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+  top: 15px;
+  padding: 10px;
+}
+.testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+  height: 200px;
+  color: white;
+}
+.signUp {
+  height: 40px;
+  margin: auto;
+  background-color: #033048;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px;
+}
+.customerName {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  postion: relative;
+  padding: 50px;
+}
+.bottom {
+  bottom: align;
+  padding: 15px;
 
-
+}
+.bottomFooter {
+  padding: 20px;
+}
